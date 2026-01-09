@@ -1,0 +1,16 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="512" cy="512" r="512" fill="#10B981"/>
+  
+  <!-- Pulse wave lines -->
+  <g stroke="white" stroke-width="60" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- First wave segment -->
+    <path d="M 200 512 L 300 512 L 350 350 L 400 650 L 450 450 L 500 550 L 550 512"/>
+    
+    <!-- Second wave segment -->
+    <path d="M 550 512 L 650 512 L 700 350 L 750 650 L 800 450 L 850 550 L 900 512"/>
+  </g>
+  
+  <!-- Center dot -->
+  <circle cx="512" cy="512" r="40" fill="white"/>
+</svg>
